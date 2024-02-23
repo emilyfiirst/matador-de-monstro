@@ -17,10 +17,12 @@ new Vue({
             this.monsterLife = 100
         },
         attack(especial){
-
+            console.log(especial, this.getRandom(5,10))
         },
+
         getRandom(min, max){
-            const value = Math.random() * (max - min)
+            const value = Math.random() * (max - min) + min
+            return Math.round(value)
         }
 
     },
