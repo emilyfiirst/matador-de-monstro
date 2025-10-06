@@ -39,7 +39,7 @@ Um pequeno jogo interativo feito com **HTML**, **CSS** e **Vue.js**, onde o joga
 
 1. Baixe ou clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/matador-de-monstro.git
+   git clone https://github.com/emilyfiirst/matador-de-monstro.git
    ```
 
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
