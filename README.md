@@ -1,33 +1,33 @@
-# 🧟‍♂️ Matador de Monstro
+# 🧟‍♂️ Monster Slayer
 
-Um pequeno jogo interativo feito com **HTML**, **CSS** e **Vue.js**, onde o jogador enfrenta um monstro em uma batalha de ataques, curas e estratégias até que um dos dois fique sem vida.
-
----
-
-## 🕹️ Funcionalidades
-
-- 🎮 **Iniciar Jogo:** começa uma nova partida, restaurando as vidas para 100%.
-- ⚔️ **Ataque:** o jogador causa dano ao monstro, que revida em seguida.
-- 💥 **Ataque Especial:** causa mais dano que o ataque comum, mas também provoca um contra-ataque.
-- 💚 **Curar:** o jogador recupera parte da vida e o monstro ataca logo depois.
-- 🚪 **Desistir:** encerra a partida atual.
-- 🧾 **Log de ações:** exibe uma lista detalhada das ações realizadas por jogador e monstro.
+A small interactive game built with **HTML**, **CSS**, and **Vue.js**, where the player faces a monster in a battle of attacks, healing, and strategy until one of them runs out of health.
 
 ---
 
-## 🧩 Estrutura do Projeto
+## 🕹️ Features
+
+- 🎮 **Start Game:** begins a new match, restoring both health bars to 100%.
+- ⚔️ **Attack:** the player deals damage to the monster, which counterattacks immediately.
+- 💥 **Special Attack:** deals more damage than a normal attack but also triggers a counterattack.
+- 💚 **Heal:** the player restores part of their health, followed by a monster attack.
+- 🚪 **Give Up:** ends the current match.
+- 🧾 **Action Log:** displays a detailed list of actions performed by both the player and the monster.
+
+---
+
+## 🧩 Project Structure
 
 ```
 📁 matador-de-monstro
 │
-├── index.html      # Estrutura principal da aplicação
-├── style.css       # Estilos visuais do jogo
-└── app.js          # Lógica do jogo (Vue.js)
+├── index.html      # Main structure of the application
+├── style.css       # Visual styles of the game
+└── app.js          # Game logic (Vue.js)
 ```
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## 💻 Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -35,44 +35,43 @@ Um pequeno jogo interativo feito com **HTML**, **CSS** e **Vue.js**, onde o joga
 
 ---
 
-## ⚙️ Como Executar
+## ⚙️ How to Run
 
-1. Baixe ou clone este repositório:
+1. Download or clone this repository:
    ```bash
    git clone https://github.com/emilyfiirst/matador-de-monstro.git
    ```
 
-2. Abra o arquivo `index.html` em qualquer navegador moderno.
+2. Open the `index.html` file in any modern browser.
 
-3. Clique em **Iniciar Jogo** e divirta-se! 🕹️
-
----
-
-## 📱 Interface do Jogo
-
-- **Barra de Vida:** mostra a porcentagem de vida do jogador e do monstro.
-- **Botões de ação:** controlam os ataques, curas e desistências.
-- **Painel de Log:** exibe as ações realizadas em tempo real.
+3. Click **Start Game** and have fun! 🕹️
 
 ---
 
-## 🧠 Lógica do Jogo (Resumo)
+## 📱 Game Interface
 
-- O jogador e o monstro começam com 100 de vida.
-- Cada ataque causa um dano aleatório dentro de um intervalo.
-- O ataque especial adiciona dano extra.
-- A cura aumenta a vida do jogador até o máximo de 100.
-- Quando um dos dois chega a 0 de vida, o jogo termina automaticamente.
+- **Health Bar**: shows the current health percentage of both the player and the monster.
+- **Action Buttons**: control attacks, healing, and giving up.
+- **Log Panel**: displays real-time actions during the battle.
 
 ---
 
-## 🏆 Objetivo
+## 🧠 Game Logic (Overview)
 
-Derrote o monstro antes que ele acabe com sua vida!  
-Gerencie seus ataques e curas para vencer essa batalha.
+- Both the player and the monster start with 100 health points.
+- Each attack inflicts random damage within a set range.
+- The special attack adds extra damage.
+- Healing restores the player’s health up to a maximum of 100.
+- When either health reaches 0, the game ends automatically.
+
+---
+
+## 🏆 Objective
+
+Defeat the monster before it defeats you!
+Manage your attacks and healing wisely to win the battle.
 
 ---
 
 ## 👨‍💻 Autor
-
-Desenvolvido como exercício prático de **Vue.js** para aprendizado de reatividade e manipulação de estado no front-end.
+Developed as a practical **Vue.js** exercise to learn about reactivity and front-end state management.
